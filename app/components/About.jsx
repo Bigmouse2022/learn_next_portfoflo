@@ -55,10 +55,8 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-5 max-w-2xl font-Ovo">
-            I am an experienced Frontend Developer with over adecade of
-            professional expertise in the field. Throughoutmy career, I have had
-            the privilege of collaborating withprestigious organizations,
-            contributing to their successand growth.
+            我是一名Next.js前后端初级开发者，刚学习一周的时间做出该网站。并且我具备前端开发经验，在学习的时候能对页面样式进行合适的调整，
+            从而实现美观、舒适的页面。并且，我在学习Next.js的过程中，也运用所学知识搭建了一个仿Deepseek人工智能对话平台。
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
@@ -99,7 +97,7 @@ const About = ({ isDarkMode }) => {
             transition={{ duration: 0.5, delay: 1.3 }}
             className="my-6 text-gray-700 font-Ovo dark:text-white/80"
           >
-            Tools I use
+            我使用过的工具
           </motion.h4>
           <motion.ul
             initial={{ opacity: 0 }}

@@ -26,7 +26,7 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        My Services
+        My Study
       </motion.h2>
 
       <motion.p
@@ -35,8 +35,7 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        I am a frontend developer from california, UsA with 10 years of
-        experiencein multiple companies like Microsoft, Tesla and Apple.
+        我是毕业于华南农业大学的2025届应届毕业生，是一名前端开发人员，已经学了一周的Next.js，对React、Typescript、Javascript也有一定的了解。
       </motion.p>
 
       <motion.div
@@ -62,7 +61,7 @@ const Services = () => {
               {description}
             </p>
             <a
-              href={link}
+              href='#top'
               className="flex items-center gap-2 text-sm mt-5 font-Ovo"
             >
               Read more

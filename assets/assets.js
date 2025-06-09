@@ -1,4 +1,4 @@
-import user_image from "./user-image.png";
+import user_image from "./user-image.jpg";
 import code_icon from "./code-icon.png";
 import code_icon_dark from "./code-icon-dark.png";
 import edu_icon from "./edu-icon.png";
@@ -15,7 +15,7 @@ import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
-import profile_img from "./profile-img.png";
+import profile_img from "./profile-img.jpg";
 import download_icon from "./download-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
@@ -35,6 +35,14 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+
+
+//my photo
+//toolData
+import supabase from "./supabase.png"
+import clerk from "./clerk.png"
+import tailwin from "./tailwin.png"
+import motion from "./motion.png"
 
 export const assets = {
   user_image,
@@ -74,56 +82,65 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+
+  //* */
+  supabase,
+  clerk,
+  tailwin,
+  motion,
 };
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
+    title: "Current Project",
+    description: "当前作品集项目",
     bgImage: "/work-1.png",
+    link:'#top',
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "My First Project",
+    description: "初学Next.js项目",
     bgImage: "/work-2.png",
+        link:'https://learn-nextjs-livid-nu.vercel.app/',
   },
   {
-    title: "Photography site",
-    description: "Web Design",
+    title: "My Second Project",
+    description: "仿Deepseek",
     bgImage: "/work-3.png",
+        link:'https://learn-next-deepseek.vercel.app',
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "My Second Project",
+    description: "仿Deepseek",
     bgImage: "/work-4.png",
+        link:'https://learn-next-deepseek.vercel.app',
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
+    title: "网站设计",
+    description: "Next.js提供的tailwind CSS默认为对中高等屏幕的样式",
     link: "",
   },
   {
     icon: assets.mobile_icon,
-    title: "Mobile app",
-    description:
-      "Mobile app development involves creating software for mobile devices...",
+    title: "移动端页面",
+    description:"Next.js提供的tailwind CSS要考虑移动端界面是否合适美观",
     link: "",
   },
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "UI 设计",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "UI的设计要尽可能地符合页面的美观",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "图片设计",
+    description: "图片的选择也是要慎重选择，让网站美观，吸引人",
     link: "",
   },
 ];
@@ -133,19 +150,19 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript, React Js, Next Js, Golang",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "华南农业大学计算机科学与技术专业",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "个人作品集网站,仿Deepseek人工智能聊天平台",
   },
 ];
 
@@ -156,8 +173,12 @@ export const toolsData = [
 //   { tool: assets.figma },
 //   { tool: assets.git },
   assets.vscode,
-  assets.firebase,
-  assets.mongodb,
-  assets.figma,
-  assets.git,
+  assets.supabase,
+  assets.clerk,
+  assets.tailwin,
+  assets.motion,
+  // assets.firebase,
+  // assets.mongodb,
+  // assets.figma,
+  // assets.git,
 ];

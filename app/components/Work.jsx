@@ -26,7 +26,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        My latest work
+        我的Next.js项目
       </motion.h2>
 
       <motion.p
@@ -35,8 +35,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-5 font-Ovo"
       >
-        Welcome to my web development portfolio! Explore a collection of
-        projects showcasing my expertise in front-end development.
+        欢迎来看我使用Next.js+React+JavaScript/TypeScript实现的项目
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}
@@ -67,7 +66,8 @@ const Work = ({ isDarkMode }) => {
               aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] 
               group-hover:bg-lime-300 transition"
               >
-                <Image src={assets.send_icon} alt="send icon" className="w-5" />
+                <a href={project.link}>go<Image src={assets.send_icon} alt="send icon" className="w-0" /></a>
+
               </div>
             </div>
           </motion.div>
