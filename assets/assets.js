@@ -92,25 +92,25 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Current Project",
+    title: "当前项目",
     description: "当前作品集项目",
     bgImage: "/work-1.png",
     link:'#top',
   },
   {
-    title: "My First Project",
+    title: "项目初尝试",
     description: "初学Next.js项目",
     bgImage: "/work-2.png",
         link:'https://learn-nextjs-livid-nu.vercel.app/',
   },
   {
-    title: "My Second Project",
+    title: "第二个项目",
     description: "仿Deepseek",
     bgImage: "/work-3.png",
         link:'https://learn-next-deepseek.vercel.app',
   },
   {
-    title: "My Second Project",
+    title: "第二个项目",
     description: "仿Deepseek",
     bgImage: "/work-4.png",
         link:'https://learn-next-deepseek.vercel.app',
@@ -149,19 +149,19 @@ export const infoList = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: "Languages",
+    title: "语言技术",
     description: "HTML, CSS, JavaScript, React Js, Next Js, Golang",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
-    title: "Education",
+    title: "教育信息",
     description: "华南农业大学计算机科学与技术专业",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
-    title: "Projects",
+    title: "项目情况",
     description: "个人作品集网站,仿Deepseek人工智能聊天平台",
   },
 ];

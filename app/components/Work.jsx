@@ -18,7 +18,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center mb-2 text-lg font-Ovo mt-20"
       >
-        My portfolio
+        Next.js
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -26,7 +26,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        我的Next.js项目
+        我的项目
       </motion.h2>
 
       <motion.p
@@ -83,7 +83,7 @@ const Work = ({ isDarkMode }) => {
       dark:text-white dark:border-white dark:hover:bg-dark-hover"
         href="#top"
       >
-        Show more
+        更多
         <Image
           src={
             isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold

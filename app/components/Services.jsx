@@ -18,7 +18,7 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center mb-2 text-lg font-Ovo mt-20"
       >
-        What I offer
+        Next.js
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -26,7 +26,7 @@ const Services = () => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        My Study
+        学习情况
       </motion.h2>
 
       <motion.p
@@ -64,7 +64,7 @@ const Services = () => {
               href='#top'
               className="flex items-center gap-2 text-sm mt-5 font-Ovo"
             >
-              Read more
+              更多
               <Image src={assets.right_arrow} alt="" className="w-4" />
             </a>
           </motion.div>

@@ -18,7 +18,7 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center mb-2 text-lg font-Ovo mt-13"
       >
-        Introduction
+        自我介绍
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -26,7 +26,7 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        About me
+        关于我
       </motion.h2>
 
       <motion.div

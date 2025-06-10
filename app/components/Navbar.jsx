@@ -56,27 +56,27 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         >
           <li>
             <a className="font-Ovo" href="#top">
-              Home
+              首页
             </a>
           </li>
           <li>
             <a className="font-Ovo" href="#about">
-              About me
+              关于我
             </a>
           </li>
           <li>
             <a className="font-Ovo" href="#services">
-              Study
+              学习情况
             </a>
           </li>
           <li>
             <a className="font-Ovo" href="#work">
-              My Work
+              我的项目
             </a>
           </li>
           <li>
             <a className="font-Ovo" href="#contact">
-              Contact me
+              联系我
             </a>
           </li>
         </ul>
@@ -98,7 +98,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               isDarkMode ? "border border-white " : "border border-black"
             }`}
           >
-            Contact{" "}
+            联系我{" "}
             <Image
               src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
               alt=""
@@ -131,27 +131,27 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#top">
-              Home
+              首页
             </a>
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#about">
-              About me
+              关于我
             </a>
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#services">
-              Study
+              学习情况
             </a>
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#work">
-              My Work
+              我的项目
             </a>
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#contact">
-              Contact me
+              联系我
             </a>
           </li>
         </ul>

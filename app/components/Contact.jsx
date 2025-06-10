@@ -71,7 +71,7 @@ const proxySubmit = async (formData) => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="text-center mb-2 text-lg font-Ovo mt-15"
       >
-        Contact with me
+        发邮箱信息
       </motion.h4>
       <motion.h2
         initial={{ y: -20, opacity: 0 }}
@@ -79,7 +79,7 @@ const proxySubmit = async (formData) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        Get in touch
+        联系我
       </motion.h2>
 
       <motion.p
@@ -88,8 +88,7 @@ const proxySubmit = async (formData) => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-5 font-Ovo"
       >
-        I'd love to hear from you! If you have any questions, comments, Or
-        feedback please use the form below.
+        很高兴你能来到我的网站，如果你感兴趣，可以试试发邮件给我
       </motion.p>
 
       <motion.form
@@ -105,7 +104,7 @@ const proxySubmit = async (formData) => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.1 }}
             type="text"
-            placeholder="Enter your name"
+            placeholder="输入你的名字"
             required
             className="flex-1 p-3 outline-none border-[0.5px] border-gray-400
           rounded-md bg-white dark:bg-dark-hover/30 dark:border-white/90"
@@ -116,7 +115,7 @@ const proxySubmit = async (formData) => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.2 }}
             type="email"
-            placeholder="Enter your email"
+            placeholder="输入你的邮箱"
             required
             className="flex-1 p-3 outline-none border-[0.5px] border-gray-400
           rounded-md bg-white dark:bg-dark-hover/30 dark:border-white/90"
@@ -128,7 +127,7 @@ const proxySubmit = async (formData) => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.3 }}
           rows="6"
-          placeholder="Enter your message"
+          placeholder="输入你想对我说的话"
           required
           className="w-full p-4 outline-none border-[0.5px] border-gray-400
         rounded-md bg-white mb-3 dark:bg-dark-hover/30 dark:border-white/90"
@@ -143,7 +142,7 @@ const proxySubmit = async (formData) => {
         hover:bg-black duration-500 mt-0 dark:bg-transparent dark:border-[0.5px] 
         dark:hover:bg-dark-hover"
         >
-          Sumbit now
+          发送
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </motion.button>
         <p className="mt-4">{result}</p>
